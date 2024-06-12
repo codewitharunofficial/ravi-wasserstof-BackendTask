@@ -13,9 +13,9 @@ This project is an intelligent load balancer that routes incoming requests to di
 
 Here's a Servers folder, multiple express server files are there.
 
-Then there's the main server.js where all the feature's like dynamic routing, logging & metrics, function simulation, queue management, request handling are built there.
+Then there's the main server.js where all the feature's like dynamic routing, logging & metrics, function simulation, queue management, request handling are built.
 
-The there's worker.js file where request or tasks coming to a worker are processed.
+Then there's worker.js file where request or tasks coming to a worker are processed & the result for every processed task is sent to the main thread.
 
 ## Logs
 
@@ -23,5 +23,5 @@ The requests.log & tasks.log files are there and if not, then they can be create
 
 I created all the functionalities in one route that is `dynamic-route`.
 
-Then there are other routes for task status, checking requests & tasks logs.
+Then there are other routes for task `status`, checking `requests-logs` & `tasks logs`.
 

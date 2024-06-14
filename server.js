@@ -102,7 +102,7 @@ app.post("/dynamic-route", (req, res) => {
         endpoint = servers[Math.floor(Math.random() * servers.length)];
     } else if (routeType === 'custom') {
         const payloadSize = JSON.stringify(req.body).length;
-        endpoint = payloadSize > 1000 ? 'http://localhost:8081' : 'http://localhost:8081';
+        endpoint = payloadSize > 1000 ? 'http://localhost:8082' : 'http://localhost:8081';
     } else {
         endpoint = endpoints[apiType] || 'http://localhost:8083';
     }

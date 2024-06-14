@@ -9,6 +9,9 @@ This project is an intelligent load balancer that routes incoming requests to di
    ```bash
    npm install
 
+##Start
+For running the servers type `npm start` command in the terminal.
+
 ## Folder Structure
 
 Here's a Servers folder, multiple express server files are there.
@@ -27,3 +30,9 @@ Then there are other routes for task `status`, checking `requests-logs` & `tasks
 
 ##Postman Collection
 [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/28008435-c2ff8371-7cfa-4281-8ac3-7cf1659e6372?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D28008435-c2ff8371-7cfa-4281-8ac3-7cf1659e6372%26entityType%3Dcollection%26workspaceId%3Debc0db7e-b368-48dd-bef7-c2682d29064a)
+
+##Deploy_Url
+https://load-balancer-x61m.onrender.com
+
+## Explaination Video Link
+https://drive.google.com/file/d/1EjVUG6s_Fzi2pISzVZ3PZgh7O0GTiZEH/view?usp=sharing

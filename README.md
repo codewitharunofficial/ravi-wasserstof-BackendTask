@@ -25,3 +25,5 @@ I created all the functionalities in one route that is `dynamic-route`.
 
 Then there are other routes for task `status`, checking `requests-logs` & `tasks logs`.
 
+##Postman Collection
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/28008435-c2ff8371-7cfa-4281-8ac3-7cf1659e6372?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D28008435-c2ff8371-7cfa-4281-8ac3-7cf1659e6372%26entityType%3Dcollection%26workspaceId%3Debc0db7e-b368-48dd-bef7-c2682d29064a)
